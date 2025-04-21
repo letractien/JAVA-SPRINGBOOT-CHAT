@@ -1,0 +1,23 @@
+.scrollable-table {
+    overflow: auto;
+    max-height: 650px; /* Default for larger screens */
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1200px) {
+    .scrollable-table {
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .scrollable-table {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .scrollable-table {
+        max-height: 300px;
+    }
+}
